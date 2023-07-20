@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
-import 'GeneratePassword.dart';
+import 'package:first_project/services/GeneratePassword.dart';
 
 class CurrencyConverterMaterialPage extends StatefulWidget {
   @override
@@ -22,7 +21,7 @@ class PascalCase extends State<CurrencyConverterMaterialPage> {
         Container(
           transformAlignment: Alignment.center,
           child: Text(
-            'Twoje hasło to: ' + genpassword.password,
+            'Twoje hasło to: ' + genpassword.getPassword(),
             style: TextStyle(
               fontSize: 34,
             ),
@@ -77,4 +76,4 @@ class PascalCase extends State<CurrencyConverterMaterialPage> {
       ],
     )));
   }
-}//jakim kurźwa cudem to nie działa!?!?!!?!?!?!??!?!?!?!?
+}

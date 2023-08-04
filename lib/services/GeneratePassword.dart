@@ -10,9 +10,11 @@ class GeneratePassword {
     var _random = Random();
     _password = '';
 
-    for (int i = 0; i <= size; i++) {
+    for (int i = 1; i <= size; i++) {
       _password += characterslist.characters
           .elementAt(_random.nextInt(characterslist.characters.length));
+
+      print(i.toString() + ". " + _password);
     }
   }
 

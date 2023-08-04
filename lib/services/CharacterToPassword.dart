@@ -13,16 +13,16 @@ class CharactersToPassword {
     'k',
     'l',
     'm',
-    'n'
-        'o',
+    'n',
+    'o',
     'p',
     'r',
-    's'
-        't'
-        'w'
-        'y'
-        'x'
-        'z'
-        'q'
+    's',
+    't',
+    'w',
+    'y',
+    'x',
+    'z',
+    'q'
   ];
 }
